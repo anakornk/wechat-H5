@@ -144,8 +144,9 @@ body {
 }
 
 .swiper-slide h2 {
+  font-family: 'Permanent Marker', cursive;
   color: #fff;
-  font-size: 20px;
+  font-size: 70px;
   font-weight: bold;
   left: 0;
   right: 0;
@@ -153,21 +154,21 @@ body {
   text-align: center;
 }
 
-.swiper-slide img {
+.swiper-slide > img {
   width: 40%;
   margin: 20px 0px;
 }
 
 .slide-1 {
-  background-color: #F95959;
+  background-color: RGBA(21, 100, 176, 1.00);
 }
 
 .slide-2 {
-  background-color: #718CA1;
+  background-color: RGBA(45, 50, 138, 1.00);
 }
 
 .slide-3 {
-  background-color: #7AB7FF;
+  background-color: RGBA(27, 22, 70, 1.00);
 }
 
 @-webkit-keyframes rotation {
@@ -181,6 +182,39 @@ body {
     50%, 60% { transform: rotate(0deg); -webkit-transform: rotate(0deg) }
     90% { transform: rotate(90deg); -webkit-transform: rotate(90deg) }
     100% { transform: rotate(90deg); -webkit-transform: rotate(90deg) }
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-profile {
+  width: 128px;
+  height:128px;
+}
+
+.img-float-left {
+  float:left;
+}
+
+.img-float-right {
+  float:right;
+}
+.profile {
+  width: 70%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.swiper-slide p {
+  font-family: 'Open Sans', sans-serif;
+  color:white;
 }
 
 /********/
