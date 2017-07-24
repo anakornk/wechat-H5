@@ -3,12 +3,15 @@
 All you need to launch the most classic H5 ever!
 
 ## Includes:
-- No uncessary libraries
+- No unnecessary libraries
 - No gulp, no bullshit
 - Simple swipper
 - Optional music
 - Optional pagination
 - Optional desktop view detector
 
-## Demo here: 
+## Demo here:
 https://tgenaitay.github.io/wechat-H5/
+
+## FUckup NIGHTS demo:
+https://anakornk.github.io/wechat-H5/
